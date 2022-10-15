@@ -1,0 +1,31 @@
+/* #nav {
+    font-family: 'Roboto Slab', serif;
+} */
+/* .brand-logo{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+} */
+.navbar{
+    font-family: 'Roboto Slab', serif;
+}
+
+#logo{
+   padding-left: 15px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tools{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/* .card-title{
+background: linear-gradient(109.37deg, rgba(255, 255, 255, 0.4) 12.9%, rgba(255, 255, 255, 0.1) 77.62%);
+box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.28);
+backdrop-filter: blur(18px);
+
+/* Note: backdrop-filter has minimal browser support */
+/* border-radius: 15px; 
+}*/

@@ -1,0 +1,47 @@
+{
+    "name": "My Toolkits",
+    "short_name": "Toolkits",
+    "description" : "Here all the tools are availabe at one place",
+    "start_url": "./index.html", 
+    "display": "standalone",
+    "theme_color": "#00796b",
+    "background_color": "#7a66b7",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "assets/app-logo/icon-48x48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "assets/app-logo/icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "assets/app-logo/icon-96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "assets/app-logo/icon-128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "assets/app-logo/icon-144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/app-logo/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "assets/app-logo/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

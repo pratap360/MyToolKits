@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+.navbar{
+  font-family: 'Roboto Slab', serif;
+}
+
+#logo{
+ padding-left: 15px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tools{
+  font-family: 'Readex Pro', sans-serif;
+}
+
+h2 {
+  /* font-family: 'Fuzzy Bubbles',sans-serif; */
+  margin-left: 28px !important;
+  color: #00796b;
+	text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* tabs custom css  */
+.tabs .indicator {
+  background-color: teal !important;
+}
+
+.tabs .tab a.active {
+  background-color: white;
+  color: #4527a0 !important;
+}
+
+.tabs .tab a:hover {
+  background-color: #c3f0eaf3 !important;
+}
+
+.tab a {
+  font-weight: 600;
+  color: rgb(105, 105, 105) !important;
+}
+
+h5.amttext{
+  font-size: 30px;
+  font-weight: bolder;
+}
