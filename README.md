@@ -1,19 +1,13 @@
 # My Toolskit - Progressive web application (PWA)
 
+this project is in under on going process Just wait for the update of Readme files and Contribution.md file
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 ![Jquery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![Responsive](https://img.shields.io/badge/Responsive-100%25-red)
-
-
-This it the SPM / PI Final year project of bscit 
-
-Created and edited by Rahmat ali and pratap parui
-
-- Front end done by - [Pratap Parui](https://github.com/pratap360)
-- Back end done by - [Rahamat ali ](https://github.com/bhaitabahi786)
 
 
 
