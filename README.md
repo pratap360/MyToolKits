@@ -1,6 +1,6 @@
 # My Toolskit - Progressive web application (PWA)
 
-this project is in under on going process Just wait for the update of Readme files and Contribution.md file untill then understand the https://materializecss.com/
+this project is in under on going process Just wait for the update of Readme files and Contribution.md file untill then understand the [Materialize Css](https://materializecss.com/)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -11,11 +11,9 @@ this project is in under on going process Just wait for the update of Readme fil
 
 
 
-## Project overview
+## Project overview 
 
-- This is a Future Ready Talent Internship Program which I have developed this project and showcase the project here 
-
-- This repository consists of files required to deploy a ___Web App or PWA___ created with ___Materialize Css___ on ___Microsoft___ Azure and hosted in Azure as a static web app 
+- This repository consists of files required to deploy a ___Web App or PWA___ created with [Materialize Css](https://materializecss.com/)  
 
 - Basiclly My Project is a Type of Web app (Contains Tools)in which user can interacts with 4 Different Tools Such as <br>
    > 1.Qr Code Generator <br>
@@ -27,12 +25,15 @@ this project is in under on going process Just wait for the update of Readme fil
 
 - Here is the Web app link [Click here](pratap360.github.io/my_toolskit_PWA/) to open the project web app
 
+# How to contribute in this repo check here 
+## [Contribution.md](./CONTRIBUTING.md)
+<br>
 
 # Screenshot 
 
 ## - Home page 
 
-![home](https://user-images.githubusercontent.com/52885495/164740864-5d6bfda9-f922-4920-9b20-ae30c21790ad.png)
+![home](./assets/images/frontpage.png)
 
 
 
@@ -42,3 +43,72 @@ To know about PWA You can visit this [site](https://web.dev/progressive-web-apps
 
 
 <!-- ## this is under developement state !  -->
+
+# Steps to Follow :point_down: 
+
+### Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account. 
+
+### Clone the repository
+
+Now clone the forked repository to your system. Go to your GitHub account, open the forked repository, click on the code button and then clone the repository.
+
+_if you want to use the terminal, use the following commands_
+after you fork the repository , open the terminal type the given command
+
+```
+git clone https://github.com/{your-github-username}/
+MyToolKits
+```
+
+### Create a branch
+
+Then create a branch on your local repository to solve a problem.
+
+_terminal commands_
+
+```
+git checkout -b your_new_branch_name
+```
+
+### Add & commit
+
+Add your changes(folder) to that branch. <br/>
+Make necessary changes and commit those changes. <br/>
+_Add your name in contributors list in `readme.md`_
+
+_terminal commands_
+
+```
+git add .
+git commit -m "your-commit-message"
+```
+
+### Push changes to GitHub
+
+Finally push your local repository to remote repository
+Compare & Submit a Pull Request
+
+_terminal commands_
+
+```
+git push origin <branch-name>
+```
+
+Then go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
+
+Now submit the pull request.
+
+### Star this repository
+
+If you had fun while contributing to this project, then don't forget to give this project a star.
+
+## Thanks to contributers
+
+<a align="center" href="https://github.com/pratap360/
+MyToolKits/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pratap360/
+MyToolKits&&max=817" />
+</a>
+
