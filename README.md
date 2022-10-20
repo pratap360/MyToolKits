@@ -7,7 +7,7 @@ this project is in under on going process Just wait for the update of Readme fil
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 ![Jquery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Responsive](https://img.shields.io/badge/Responsive-100%25-red)
+![Responsive](https://img.shields.io/badge/Responsive-100%25-red?style=for-the-badge)
 
 
 
@@ -15,15 +15,14 @@ this project is in under on going process Just wait for the update of Readme fil
 
 - This repository consists of files required to deploy a ___Web App or PWA___ created with [Materialize Css](https://materializecss.com/)  
 
-- Basiclly My Project is a Type of Web app (Contains Tools)in which user can interacts with 4 Different Tools Such as <br>
-   > 1.Qr Code Generator <br>
-    >2.Password Generator<br>
-    >3.Todo list <br>
-    >4.Draw tool<br>
-   > And many more to Come
+- Basiclly My Project is a Type of Web app (Contains Tools)in which user can interacts with Different Tools Such as <br>
+   >1.Qr Code Generator <br>
+   >2.Password Generator<br>
+   >3.Todo list <br>
+   >4.Draw tool<br>
+  And many more to Come 
 
 
-- Here is the Web app link [Click here](pratap360.github.io/my_toolskit_PWA/) to open the project web app
 
 # How to contribute in this repo check here 
 ## [Contribution.md](./CONTRIBUTING.md)
