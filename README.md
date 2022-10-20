@@ -106,9 +106,8 @@ If you had fun while contributing to this project, then don't forget to give thi
 
 ## Thanks to contributers
 
-<a align="center" href="https://github.com/pratap360/
-MyToolKits/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pratap360/
-MyToolKits&&max=817" />
+<a href="https://github.com/pratap360/MyToolKits/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pratap360/MyToolKits" />
 </a>
+
 
