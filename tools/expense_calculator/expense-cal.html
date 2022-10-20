@@ -10,6 +10,7 @@
   <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon.ico">
   <!-- styles import -->
   <link rel="stylesheet" href="../../tools/expense_calculator/expense-style.css">
+  <link rel="stylesheet" href="../../css/style.css">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- fonts import -->
@@ -43,10 +44,6 @@
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
                 <i class="material-icons right">more_vert</i></a></li>
-            <!-- login button -->
-            <li><a href="../../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
-                <i class="material-icons left">account_circle</i>Login/Sign up</a>
-            </li>
 
           </ul>
           <!-- dropdown menus -->
@@ -61,9 +58,7 @@
     </div>
     <!-- Here is the Mobile side navbar   -->
     <ul class="sidenav" id="mobile-demo">
-      <!-- login button -->
-      <li><a href="../../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn-large z-depth-2">
-          <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
+      
       <li><a href="#" onclick="toggleModal();">How to Use</a></li>
       <li><a href="../../pages/about-us.html">About us</a></li>
       <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
@@ -79,7 +74,7 @@
   </section>
 
   <!-- main section for expense_calculator -->
-  <div class="white container">
+  <div class=" container">
     <h2 class="center col s12 m7 l6" style="font-size: 35px;">Expense Tracker
       <a href="#helptracker" class="waves-effect waves-light deep-purple darken-3 btn modal-trigger">
         <i class="material-icons">help</i></a>
@@ -88,7 +83,7 @@
   </div>
 
   <!-- section in the expense card panel -->
-  <div id="tab-tasks" class="white container">
+  <div id="tab-tasks" class=" container">
     <div class="card-panel teal darken-2 hoverable">
       <h5 id="amt" class="white-text right amttext">0.00
         <!-- <span>₹</span> -->
@@ -202,7 +197,7 @@
   <!-- fixme: remaing to add the actuall detaials for this help btn  -->
   <div id="helptracker" class="modal">
     <div class="modal-content">
-      <div class="white container">
+      <div class=" container">
         <h5>💡 Tip</h5>
         <blockquote style="border-color: #5d32ac;">
           You can add your expense by clicking the add
@@ -271,7 +266,7 @@
  
   <!-- light/dark mode button  -->
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large deep-purple darken-3 hoverable">
+    <a class="btn-floating btn-large deep-purple darken-3 hoverable light-dark-mode">
       <i class="large material-icons">brightness_4</i>
     </a>
   </div>

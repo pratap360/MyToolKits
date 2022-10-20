@@ -5,6 +5,10 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
 } */
+body.dark-mode {
+    color: #ccc!important;
+    background: #333333!important;
+}
 .navbar{
     font-family: 'Roboto Slab', serif;
 }
