@@ -18,7 +18,24 @@ btn.addEventListener("click", () => {
 })
 
 function generate(user_input){
-
+    // adding animation
+    gsap.fromTo
+    (
+        '.qr-code',
+        // from effects
+        {opacity:0,
+            x:-30
+        },
+        // to effects
+        {
+            opacity:1,
+            x:0,
+            ease: 'elastic.out(1.2, 0.45)',
+            duration: 6
+        }
+        // you can patch in one line :)
+        // did this for ones better understnding
+    );
     qr_code_element.style = "";
 
     var qrcode = new QRCode(qr_code_element, {
