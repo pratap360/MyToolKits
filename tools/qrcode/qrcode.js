@@ -115,9 +115,9 @@ function generate(user_input){
             {   
                 opacity:0,
                 delay:0.3,
-                duration:1,
-                y:1,
-                x:2,
+                duration:.9,
+                y:0,
+                x:-30,
                 ease: "slow(0.3, 0.7, true)"
             }
         )
