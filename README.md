@@ -1,7 +1,5 @@
 # My Toolskit - Progressive web application (PWA)
 
-this project is in under on going process Just wait for the update of Readme files and Contribution.md file untill then understand the [Materialize Css](https://materializecss.com/)
-
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -15,7 +13,7 @@ this project is in under on going process Just wait for the update of Readme fil
 
 - This repository consists of files required to deploy a ___Web App or PWA___ created with [Materialize Css](https://materializecss.com/)  
 
-- Basiclly My Project is a Type of Web app (Contains Tools)in which user can interacts with Different Tools Such as <br>
+- Basically My Project is a Type of Web app (Contains Tools)in which user can interacts with Different Tools Such as <br>
    >1.Qr Code Generator <br>
    >2.Password Generator<br>
    >3.Todo list <br>
