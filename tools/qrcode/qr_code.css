@@ -1,6 +1,6 @@
-
-
-
+*{
+	margin: 0;
+}
 
 .navbar{
 	font-family: 'Roboto Slab', serif;
@@ -27,3 +27,18 @@ blockquote{
 	 margin-left: 10px;
 	 margin-right: 10px;
  }
+.qr-code button{
+	padding: .5rem;
+	position: absolute;
+	left: 108%;
+	top: 50%;
+	margin-top: 1em									;
+	background-color: #5d32ac;
+	color: white;
+}
+.image-container{
+	margin-left: 100px;
+}
+.qr-code button:hover{
+	border-radius:0 10px 0 10px;
+}						

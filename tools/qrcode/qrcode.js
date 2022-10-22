@@ -18,7 +18,24 @@ btn.addEventListener("click", () => {
 })
 
 function generate(user_input){
-
+    // adding animation
+    gsap.fromTo
+    (
+        '.qr-code',
+        // from effects
+        {opacity:0,
+            x:-30
+        },
+        // to effects
+        {
+            opacity:1,
+            x:0,
+            ease: 'elastic.out(1.2, 0.45)',
+            duration: 6
+        }
+        // you can patch in one line :)
+        // did this for ones better understnding
+    );
     qr_code_element.style = "";
 
     var qrcode = new QRCode(qr_code_element, {
@@ -46,8 +63,28 @@ function generate(user_input){
 
     let qr_code_img = document.querySelector(".qr-code img");
     let qr_code_canvas = document.querySelector("canvas");
+    // picking out the downlaod button
+    let download_button = document.querySelector('.qr-code button');
 
     if(qr_code_img.getAttribute("src") == null){
+    // adding animation to the button
+        gsap.fromTo
+        (
+            download_button,
+            {
+                opacity:0,
+                y:-5,
+                x: 10
+            },
+            {
+                delay:.6,
+                y:0,
+                x:0,
+                opacity:1,
+                duration:1.2
+            }
+        )
+
         setTimeout(() => {
             download_link.setAttribute("href", `${qr_code_canvas.toDataURL()}`);
         }, 300);
@@ -55,6 +92,35 @@ function generate(user_input){
         setTimeout(() => {
             download_link.setAttribute("href", `${qr_code_img.getAttribute("src")}`);
         }, 300);
+    }
+    // what happens after click?
+    // i think i should remove the qr
+    download_button.onclick = () =>{
+    // hiding qr
+        gsap.to
+        (
+            qr_code_img,
+            {
+                opacity:0,
+                y:0,
+                x:-9,
+                duration:1.3,
+                ease: "slow(0.3, 0.7, true)"
+            }
+        )
+    // hiding download button
+        gsap.to
+        (
+            download_button,
+            {   
+                opacity:0,
+                delay:0.3,
+                duration:.9,
+                y:0,
+                x:-30,
+                ease: "slow(0.3, 0.7, true)"
+            }
+        )
     }
 }
 
