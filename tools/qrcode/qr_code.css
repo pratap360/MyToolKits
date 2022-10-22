@@ -36,6 +36,9 @@ blockquote{
 	background-color: #5d32ac;
 	color: white;
 }
+.image-container{
+	margin-left: 100px;
+}
 .qr-code button:hover{
 	border-radius:0 10px 0 10px;
 }						
