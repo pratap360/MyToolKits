@@ -1,4 +1,5 @@
 // working of generate qr btn 
+const b = document.querySelector(".image-container");
 let btn = document.querySelector("#generate");
 let qr_code_element = document.querySelector(".qr-code");
 
@@ -121,7 +122,15 @@ function generate(user_input){
                 ease: "slow(0.3, 0.7, true)"
             }
         )
+        setTimeout( ()=>
+            gsap.to((download_button),{x:-350})
+            ,1500)
+
+        setTimeout( ()=>
+            gsap.to((qr_code_img),{x:-300})
+            ,1500)
     }
+    
 }
 
 // function download(qr_code_element)

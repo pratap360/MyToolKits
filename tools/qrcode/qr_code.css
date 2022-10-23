@@ -27,18 +27,20 @@ blockquote{
 	 margin-left: 10px;
 	 margin-right: 10px;
  }
+ #generate{
+	border-radius:0 15px 0 15px;
+ }
 .qr-code button{
 	padding: .5rem;
 	position: absolute;
 	left: 108%;
 	top: 50%;
 	margin-top: 1em									;
-	background-color: #5d32ac;
+	background-color: rgb(93, 50, 172);
 	color: white;
+	border-radius:0 15px 0 15px;
 }
 .image-container{
 	margin-left: 100px;
 }
-.qr-code button:hover{
-	border-radius:0 10px 0 10px;
-}						
+					
