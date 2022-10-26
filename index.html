@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- fonts import -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- font awesome cdn import -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- main logo font and nav bar font import -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <!-- all contents fonts import -->
@@ -39,6 +43,7 @@
             <img src=" ./assets/main-logo/main-logo.png" alt="brand-logo" id="logo"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav" class="right hide-on-med-and-down">
+            <li><a class="waves-effect btn deep-purple darken-3 hoverable" href="https://github.com/pratap360/MyToolKits"><i class="material-icons fab fa-github fa-lg"></i></a></li>
             <li><a href="#" onclick="toggleModal();">How to use</a></li>
             <li><a href="./pages/about-us.html">About us</a></li>
             <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
@@ -46,10 +51,6 @@
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger hoverable" href="#" data-target="dropdown1">&nbsp;
                 <i class="material-icons right">more_vert</i></a></li>
-            <!-- login button -->
-            <li><a href="./pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
-                <i class="material-icons left">account_circle</i>Login/Sign up</a>
-            </li>
             <!-- light/dark mode toggle button in nav bar  -->
             <!-- <li><a href="#" class="btn-floating btn-small waves-effect waves-light  light-blue accent-4">
             <i class="material-icons left">brightness_4</i></a>
@@ -72,6 +73,7 @@
       <!-- login button -->
       <li><a href="./pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn-large z-depth-2">
           <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
+      <li><a href="https://github.com/pratap360/MyToolKits">Github</a></li>
       <li><a href="#" onclick="toggleModal();">How to use</a></li>
       <li><a href="./pages/about-us.html">About us</a></li>
       <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
@@ -101,7 +103,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/tools-logo/qrcode.png">
+            <img class="activator" src="./assets/tools-logo/qrcode.png" alt="a qrcode">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Qr Code Generator
@@ -121,7 +123,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="https://img.icons8.com/material-sharp/100/000000/ok--v2.png">
+            <img class="activator" src="https://img.icons8.com/material-sharp/100/000000/ok--v2.png" alt="a check">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Todo<br>List
@@ -140,7 +142,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/tools-logo/pwd-gen.png">
+            <img class="activator" src="./assets/tools-logo/pwd-gen.png" alt="password with a padlock">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Password Generator
@@ -159,7 +161,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/tools-logo/draw.png">
+            <img class="activator" src="./assets/tools-logo/draw.png" alt="a crisscross pencil and brush">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Draw
@@ -192,7 +194,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="assets/tools-logo/expense-cal.png">
+            <img class="activator" src="assets/tools-logo/expense-cal.png" alt="currency expense">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Expense Calculator
@@ -212,7 +214,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./assets/tools-logo/habit-track.png">
+            <img class="activator" src="./assets/tools-logo/habit-track.png" alt="habit track">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">habit tracker
@@ -261,7 +263,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="https://img.icons8.com/material/100/000000/puzzle--v1.png">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/puzzle--v1.png" alt="puzzel">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Tool Name 9<i
@@ -278,7 +280,7 @@
       <div class="col s12 m6 l3" style="padding: 65px 35px;">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="https://img.icons8.com/material/100/000000/share-2.png">
+            <img class="activator" src="https://img.icons8.com/material/100/000000/share-2.png" alt="share">
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4" title="description">Tool Name 10<i
@@ -329,12 +331,12 @@
           <p><b>Here are the steps to add</b></p>
           <ol>
             <li>First and formost you will see the download icon on the address bar of your browser if you use chrome </li>
-            <img src="./assets/images/dwl-pwa.jpg" alt="h2u" class="responsive-img"> on dektop or on android mobile
-            <img src="./assets/images/add2home.jpeg" alt="h2u" class="center-on-small-only responsive-img"> 
+            <img src="./assets/images/dwl-pwa.jpg" alt="Toolkits" class="popup-img-size"> on dektop or on android mobile
+            <img src="./assets/images/add2home.jpeg" alt="Add toolkits to home screen" class="center-on-small-only popup-img-size"> 
             <li>Then just click add or download as per on which ever your device is</li>
             <li>Give some time to download </li>
             <li>after your dowload is finished you will get this notification like this</li>
-            <img src="./assets/images/notify.jpeg" alt="h2u" class="center-on-small-only responsive-img"> 
+            <img src="./assets/images/notify.jpeg" alt="download share favorites" class="center-on-small-only popup-img-size"> 
             <li>Now you will see the app icon on your home screen Hurray!</li>
           </ol>
           <p>Now your Good to go</p>
@@ -356,10 +358,9 @@
     </div>
   </section>
 
-
   <!-- light/dark mode button  -->
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large deep-purple darken-3 hoverable" title="dark mode coming soon">
+    <a class="btn-floating btn-large deep-purple darken-3 hoverable light-dark-mode">
       <i class="large material-icons">brightness_4</i>
     </a>
   </div>

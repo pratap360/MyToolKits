@@ -5,6 +5,10 @@
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
 } */
+body.dark-mode {
+    color: #ccc!important;
+    background: #333333!important;
+}
 .navbar{
     font-family: 'Roboto Slab', serif;
 }
@@ -19,6 +23,19 @@
 }
 .tools{
     font-family: 'Readex Pro', sans-serif;
+}
+
+.popup-img-size{
+    display: block;
+    width: auto;
+    height: 65px;
+    padding: 5px 0px;
+}
+
+@media (max-width: 419px) {
+    .popup-img-size{
+        height: 50px;
+    }
 }
 
 /* .card-title{

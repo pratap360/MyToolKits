@@ -10,6 +10,7 @@
   <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon.ico">
   <!-- styles import -->
   <link rel="stylesheet" href="../../tools/qrcode/qr_code.css">
+  <link rel="stylesheet" href="../../css/style.css">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- fonts import -->
@@ -20,6 +21,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap">
   <!-- all contents fonts import -->
   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
+  <!--flowbite import-->
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
 
   <!-- qr code cloudflare script  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
@@ -44,9 +47,9 @@
             <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
                 <i class="material-icons right">more_vert</i></a></li>
             <!-- login button -->
-            <li><a href="../../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
+            <!-- <li><a href="../../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
                 <i class="material-icons left">account_circle</i>Login/Sign up</a>
-            </li>
+            </li> -->
             <!-- light/dark mode toggle button in nav bar  -->
             <!-- <li><a href="#" class="btn-floating btn-small waves-effect waves-light  light-blue accent-4">
             <i class="material-icons left">brightness_4</i></a>
@@ -82,7 +85,7 @@
   </section>
 
   <!-- creation of the Qr code Generator -->
-  <div class="white container">
+  <div class=" container">
     <h2 class="center col s12 m7 l6" style="color: #00796b; text-transform: uppercase;
   font-family: 'Oswald', sans-serif;font-size:30px;">QR Code Generator
       <a href="#helptracker" class="waves-effect waves-light deep-purple darken-3 btn modal-trigger">
@@ -90,7 +93,7 @@
       <hr>
     </h2>
   </div>
-  <section class="white container">
+  <section class=" container">
     <div class="col s12 m3 center-on-small-only">
       <!-- <div class="card-panel"> -->
       <div class="row">
@@ -135,7 +138,7 @@
 
   <div id="helptracker" class="modal">
     <div class="modal-content">
-      <div class="white container">
+      <div class=" container">
         <h5>💡 Tip</h5>
         <blockquote>
           You can generate Qr code by add or typing some in the data
@@ -202,7 +205,7 @@
 
   <!-- light/dark mode button  -->
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large deep-purple darken-3 hoverable">
+    <a class="btn-floating btn-large deep-purple darken-3 hoverable light-dark-mode">
       <i class="large material-icons">brightness_4</i>
     </a>
   </div>
@@ -215,6 +218,8 @@
 
   <script src="../../js/script.js"></script>
   <script src="../../tools/qrcode/qrcode.js"></script>
+  <!-- gsap import -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 </body>
 
 </html>

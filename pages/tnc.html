@@ -14,6 +14,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- fonts import -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- font awesome cdn import -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- main logo font and nav bar font import -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -35,18 +39,19 @@
             <img src="../assets/main-logo/main-logo.png" alt="brand-logo" id="logo"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav" class="right hide-on-med-and-down">
+            <li><a class="waves-effect btn deep-purple darken-3 hoverable" href="https://github.com/pratap360/MyToolKits"><i class="material-icons fab fa-github fa-lg"></i></a></li>
             <li><a href="#" onclick="toggleModal();">How to use</a></li>
             <li><a href="../pages/about-us.html">About us</a></li>
             <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
-            
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-trigger hoverable" href="#!" data-target="dropdown1">&nbsp;
                 <i class="material-icons right">more_vert</i></a></li>
             <!-- login button -->
-            <li><a href="../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
-                <i class="material-icons left">account_circle</i>Login/Sign up</a>
-            </li>
-
+            <!-- <li>
+              <a id="light-dark-mode" class="waves-effect waves-light deep-purple darken-3 btn hoverable">
+                <i class="large material-icons">brightness_4</i>
+              </a>  
+            </li> -->
           </ul>
           <!-- dropdown menus -->
           <ul id="dropdown1" class="dropdown-content">
@@ -54,7 +59,6 @@
             <li><a href="../pages/privacy policy.html">Privacy Policy</a></li>
             <li><a href="#!" title="this page">Terms & Conditions</a></li>
           </ul>
-
         </div>
       </nav>
     </div>
@@ -63,6 +67,7 @@
       <!-- login button -->
       <li><a href="../pages/login.html" class="waves-effect waves-light deep-purple darken-3 btn-large z-depth-2">
           <i class="material-icons  left">account_circle</i>Login/Sign Up</a></li>
+      <li><a href="https://github.com/pratap360/MyToolKits">Github</a></li>
       <li><a href="#" onclick="toggleModal();">How to use</a></li>
       <li><a href="../pages/about-us.html">About us</a></li>
       <!-- <li><a href="/pages/favorites.html">Favorites</a></li> -->
@@ -73,7 +78,7 @@
     </ul>
   </section>
 
-<section class="white container">
+<section class=" container">
   <h2><strong>Terms and Conditions</strong></h2>
 
 <p>Welcome to mytoolkits!</p>
@@ -250,7 +255,7 @@
   
     <!-- light/dark mode button  -->
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large deep-purple darken-3 hoverable">
+      <a class="btn-floating btn-large deep-purple darken-3 hoverable light-dark-mode">
         <i class="large material-icons">brightness_4</i>
       </a>
     </div>
