@@ -38,6 +38,20 @@ body.dark-mode {
     }
 }
 
+::-webkit-scrollbar{
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background-color: rgba(247, 247, 247, 0.8);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #8070d4;
+    border: 6px solid rgba(0, 0, 0, 0.2);
+  }
+
 /* .card-title{
 background: linear-gradient(109.37deg, rgba(255, 255, 255, 0.4) 12.9%, rgba(255, 255, 255, 0.1) 77.62%);
 box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.28);
